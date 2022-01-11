@@ -1,0 +1,19 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.address {
+    font-size: .8rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .address {
+        font-size: 1rem;
+    }
+}
+
+@media print {
+    .address {
+        font-size: 1rem;
+    }
